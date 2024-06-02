@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="question-container">
+        <header>
+            <h1 id="question-header">Question 1</h1>
+        </header>
+        <main>
+            <p id="question-text">Do you like surprises?</p>
+        </main>
+        <footer>
+            <button class="yes-button" onclick="nextQuestion(true)">Yes</button>
+            <button class="no-button" onclick="nextQuestion(false)">No</button>
+        </footer>
+    </div>
+    <div id="message" class="message hidden"></div>
+    <canvas id="confetti" class="hidden"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
