@@ -2,7 +2,7 @@ const questions = [
     { text: 'Do you like surprises?', yes: 'Great! Here’s another question.', no: 'Oh, come on! It’s fun!' },
     { text: 'Do you believe in love at first sight?', yes: 'That’s sweet! One more question.', no: 'Really? Let’s see if I can change your mind.' },
     { text: 'Can you keep a secret?', yes: 'Perfect! Last question.', no: 'Don’t worry, this one’s not a secret.' },
-    { text: 'Will You be my Girl-Friend ?', yes: 'Yay! I\'m so happy! 💍❤️', no: 'Oh no! I\'ll try harder. 😢' }
+    { text: 'Do You LOVE Me ?', yes: 'Yay! I\'m so happy! 💍❤️', no: 'Oh no! I\'ll try harder. 😢' }
 ];
 let currentQuestion = 0;
 
